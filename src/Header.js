@@ -17,7 +17,7 @@ const style = {
     },
 
     logoImg: {
-        height: "100%",
+        maxHeight: "100%",
         border: "none"
     },
 
