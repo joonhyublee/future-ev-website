@@ -52,7 +52,7 @@ export default props => (
 
         <a href="/">
             <div style={ style.logoContainer }>
-                <img src="/images/logo.png" style={ style.logoImg }/>
+                <img src="/images/logo.png" style={ style.logoImg }></img>
             </div>
         </a>
     </div>
