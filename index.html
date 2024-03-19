@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SketchLab</title>
+        <meta
+            name="viewport"
+            content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+        >
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab');
+
+            html {
+                overflow-y: scroll;
+            }
+
+            body {
+                margin: 10px;
+                font-family: 'Zilla Slab', sans-serif;
+                font-size: 19px;
+                line-height: 29px;
+                color: #333;
+            }
+
+            div {
+                word-wrap: break-word;
+            }
+
+            h1, h2, h3, h4 {
+                font-family: 'Roboto', sans-serif;
+                margin: 0px;
+            }
+
+            h1 {
+                font-size: 35px;
+                line-height: 45px;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 19px;
+                line-height: 29px;
+                font-weight: 700;
+            }
+
+            h3 {
+                font-size: 19px;
+                line-height: 29px;
+                font-weight: 400;
+            }
+
+            h4 {
+                font-family: 'Zilla Slab', sans-serif;
+                font-size: 17px;
+                line-height: 27px;
+                font-weight: 400;
+            }
+
+            .aspect-ratio {
+                position: relative;
+                width: 100%;
+                height: 0px;
+            }
+
+            .aspect-ratio * {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0px;
+                top: 0px;
+            }
+
+            iframe {
+                box-sizing: border-box;
+                border: 2px solid #333;
+            }
+
+            img {
+                box-sizing: border-box;
+                border: 2px solid #333;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            a img:hover {
+                border: 2px solid #00f;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:link {
+                color: #333;
+                fill: #333;
+            }
+
+            a:visited {
+                color: #333;
+                fill: #333;
+            }
+
+            a:hover {
+                color: #00f;
+                fill: #00f;
+            }
+
+            a:active {
+                color: #333;
+                fill: #333;
+            }
+
+            table {
+                width: calc(100% + 20px);
+                margin-left: -10px;
+                table-layout: fixed;
+                border-spacing: 10px 0px;
+                vertical-align: top;
+            }
+
+            td {
+                vertical-align: top;
+            }
+
+            .menu-label {
+                display: inline-block;
+                width: 140px;
+            }
+
+            .container {
+                max-width: 1100px;
+                margin: 0px auto;
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .full-width              { grid-column: span 4; }
+            .tile                    { grid-column: span 2; }
+
+            .image-big               { grid-column: span 4; }
+            .image-big-content       { grid-column: span 4; }
+
+            .image-small             { grid-column: span 4; }
+            .image-small-content     { grid-column: span 4; }
+
+            .thumbnail-big           { grid-column: span 1; }
+            .thumbnail-big-content   { grid-column: span 3; }
+
+            .thumbnail-small         { grid-column: span 1; }
+            .thumbnail-small-content { grid-column: span 3; }
+
+            @media (min-width: 560px) {
+                .menu-label {
+                    width: auto;
+                    margin-right: 40px;
+                }
+            }
+
+            @media (min-width: 700px) {
+                .container { grid-template-columns: repeat(12, 1fr); }
+
+                .full-width              { grid-column: span 12; }
+                .tile                    { grid-column: span 3;  }
+
+                .image-big               { grid-column: span 12; }
+                .image-big-content       { grid-column: span 0; }
+
+                .image-small             { grid-column: span 5; }
+                .image-small-content     { grid-column: span 7; }
+
+                .thumbnail-big           { grid-column: span 3; }
+                .thumbnail-big-content   { grid-column: span 9; }
+
+                .thumbnail-small         { grid-column: span 2;  }
+                .thumbnail-small-content { grid-column: span 10; }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="root"></div>
+    </body>
+</html>
