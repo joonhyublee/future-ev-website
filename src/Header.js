@@ -17,6 +17,7 @@ const style = {
     },
 
     logoImg: {
+        height: "100%",
         border: "none"
     },
 
@@ -51,7 +52,7 @@ export default props => (
 
         <a href="/">
             <div style={ style.logoContainer }>
-                <img src="/images/logo.png" width="235" height="40" style={ style.logoImg }></img>
+                <img src="/images/logo.png" style={ style.logoImg }></img>
             </div>
         </a>
     </div>
