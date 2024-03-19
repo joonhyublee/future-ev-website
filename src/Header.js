@@ -12,12 +12,11 @@ const style = {
     },
 
     logoContainer: {
-        height: 40,
         paddingBottom: 7
     },
 
     logoImg: {
-        maxHeight: "100%",
+        height: 40,
         border: "none"
     },
 
