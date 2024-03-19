@@ -1,0 +1,7 @@
+{
+    "apps": [{
+        "name": "future-ev-website",
+        "script": "babel-node",
+        "args": "server"
+    }]
+}
