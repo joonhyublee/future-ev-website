@@ -8,7 +8,6 @@ const style = {
         paddingBottom: 2,
         display: 'flex',
         flexWrap: 'wrap',
-        // justifyContent: 'space-between',
         justifyContent: 'space-between',
     },
 
@@ -26,7 +25,7 @@ export default () => (
         style={ style.container }
     >
         <div>
-            <span style={{ marginRight: 10 }}>© FutureEV All Rights Reserved.</span>
+            <span style={{ marginRight: 10 }}>© FutureEV Co. Ltd. All Rights Reserved.</span>
 
             <div style={{ display: 'inline-block' }}>
                 <a href="https://www.youtube.com/@FutureEV365">
