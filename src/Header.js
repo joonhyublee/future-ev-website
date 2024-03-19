@@ -1,5 +1,4 @@
 import React from 'react';
-import { labLogo } from './SVGImages';
 
 const style = {
     container: {
@@ -53,7 +52,6 @@ export default props => (
 
         <a href="/">
             <div style={ style.logoContainer }>
-                {/* { labLogo } */}
                 <img src="/images/logo.png" style={ style.logoImg }/>
             </div>
         </a>
