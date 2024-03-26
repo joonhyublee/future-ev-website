@@ -1,0 +1,21 @@
+{
+    "image": "/images/products/f100l.jpg",
+    "supertitle": ["F100L"],
+    "title": "소형전기 화물차 (F100L) – 판매예정 (2024.12)",
+    "subtitle": [],
+    "content": [
+        [
+            "• 전장, 전폭, 전고 : 3,795x1,495x1,770 (mm)",
+            "• 중량 : 공차중량(980kg), 총중량 (1,660kg)",
+            "• 최대 적재량 : 550kg",
+            "• 최고속도: 120km/h",
+            "• 완충시 주행거리 : 250km",
+            "• 등판능력: 30%",
+            "• 모터 : PMSM, 60kW",
+            "• 배터리 : 35kWh (LIB), 41kW (LFP)",
+            "• 충전: 급속 (CCS Combo 1), 완속 (AC 6.6kW, 32A)",
+            "• 안전 및 편의 장치: ESC, 에어백, EPB, TPMS, EPS, HAS, AEBS"
+        ]
+    ],
+    "reference": []
+}

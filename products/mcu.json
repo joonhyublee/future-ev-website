@@ -1,0 +1,15 @@
+{
+    "image": "/images/products/mcu.jpg",
+    "supertitle": ["Power Bank"],
+    "title": "MCU (Motor Control Unit)",
+    "subtitle": [],
+    "content": [
+        [
+            "• Input Voltage : 220 ~ 450 VDC",
+            "• Rated/ Peak power : 30/65 kW",
+            "• CAN2.0, Torque/Speed control mode",
+            "• MCU max efficiency : 98 %"
+        ]
+    ],
+    "reference": []
+}

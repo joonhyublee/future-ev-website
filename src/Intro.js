@@ -3,7 +3,7 @@ import AspectRatio from './AspectRatio';
 
 export default () => [
     <div className="image-big">
-        <AspectRatio aspectRatio="16:9">
+        <AspectRatio aspectRatio="960:507">
             <iframe
                 src="https://www.youtube.com/embed/QWPrS9k8Goo?rel=0&start=0&mute=1&autoplay=1" // TJB News (ASAS)
                 allow="autoplay; encrypted-media"

@@ -1,0 +1,15 @@
+{
+    "image": "/images/technologies/aebs.jpg",
+    "supertitle": ["AEBS"],
+    "title": "자동비상제동장치(AEBS) 기술",
+    "subtitle": [],
+    "content": [
+        [
+            "• 레이더 기반의 고신뢰성 객체인식 기술",
+            "• 높은 정확도, 낮은 오경보를 가지는 비상제동 알고리즘",
+            "• AEBS 시뮬레이터/벤치 마크 시스템",
+            "• AEBS 인증 및 시험기술"
+        ]
+    ],
+    "reference": []
+}

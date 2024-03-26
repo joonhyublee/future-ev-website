@@ -1,0 +1,16 @@
+{
+    "image": "/images/technologies/powertrain.jpg",
+    "supertitle": ["Powertrain"],
+    "title": "상용차용 하이브리드 전기차 Powertrain 기술",
+    "subtitle": [],
+    "content": [
+        [
+            "• 택배트럭용 디젤트럭의 하이브리드 개조 기술개발 및 실용화연구 (KAIST 조천식모빌리티대학원)",
+            "• 국토교통부, 총 사업비 150억원, 연구기간: 2017.8~2020.12 (3.5년)",
+            "• 온실가스〮미세먼지: 30%이상 저감, 연비: 약 85% 개선 (6.4 km/L  11.8 km/L)",
+            "• 시스템 특징: 박형PMSM모터(35kW급), 배터리팩(3.5kWh), eMT (클러치 페달 없는 수동기어)",
+            "• 주요 내재화 기술: PMSM 모터제어기, BMS(Battery Management System), VCU 기술 등"
+        ]
+    ],
+    "reference": []
+}

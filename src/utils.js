@@ -5,7 +5,7 @@ import AspectRatio from './AspectRatio';
 
 // construct database from json files
 export const database = [];
-const directories = ['/people', '/publications', '/awards'];
+const directories = ['/technologies', '/products'];
 
 directories.forEach(directory => {
     fs.readdirSync(`.${ directory }`).forEach(fileName => {
@@ -100,6 +100,10 @@ export const byDate = (docA, docB) => {
 }
 
 // export people, publications, and awards collections
+export const allTechnologiesDocs = database.filter(belongsToDirectory(
+    '/technologies'));
+export const allProductsDocs = database.filter(belongsToDirectory(
+    '/products'));
 export const allPeopleDocs = database.filter(belongsToDirectory('/people'));
 export const allPublicationsDocs = database.filter(belongsToDirectory(
     '/publications'));

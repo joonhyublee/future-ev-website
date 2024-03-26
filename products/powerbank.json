@@ -1,0 +1,20 @@
+{
+    "image": "/images/products/powerbank.jpg",
+    "supertitle": ["Power Bank"],
+    "title": "파워뱅크",
+    "subtitle": [],
+    "content": [
+        [
+            "• Cell : LFP 280 Ah, 3.26 V",
+            "• Configuration : 4S2P",
+            "• 전압 : 13.04 V",
+            "• 전류 : 560 Ah",
+            "• 용량 : 7.3 kWh",
+            "• Main fuse : 500 A",
+            "• Main Relay : > 300 A",
+            "• Current Sensor : > 300 A",
+            "• 용도 : 캠핑용, 냉동차량용"
+        ]
+    ],
+    "reference": []
+}

@@ -1,0 +1,14 @@
+{
+    "image": "/images/technologies/mcu.jpg",
+    "supertitle": ["MCU"],
+    "title": "모터제어기 (MCU - Motor Control Unit) 설계 기술",
+    "subtitle": [],
+    "content": [
+        [
+            "• 고출력 PMSM 모터 제어(45kW, 65kW, 120kW, 180kW)",
+            "• 모터 편차에 강인한 제어 알고리즘",
+            "• 최적 약자속 제어 및 회생제동 최적화를 통한 구동 효율 극대화"
+        ]
+    ],
+    "reference": []
+}

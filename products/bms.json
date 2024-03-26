@@ -1,0 +1,13 @@
+{
+    "image": "/images/products/bms.jpg",
+    "supertitle": ["BMS"],
+    "title": "BMS (Battery Management System)",
+    "subtitle": [],
+    "content": [
+        [
+            "• 배터리셀의 비선형 모델기반, 셀노화에 따른 셀간 성능 편차에 강인한 고정밀 SOC 추정 알고리즘 탑재",
+            "• 센서 고장 감지, 온도제어 등의 고효율/초안전 배터리   시스템 관리기술"
+        ]
+    ],
+    "reference": []
+}
