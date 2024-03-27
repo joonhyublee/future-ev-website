@@ -169,6 +169,14 @@ export const formatContentItem = contentItem => {
             </table>
         );
 
+    // a video (mp4 only)
+    } else if (contentItem.video) {
+        return (
+            <video autoPlay loop muted>
+                <source src={ contentItem.video } type="video/mp4"></source>
+            </video>
+        );
+
     // a youtube embed
     } else if (contentItem.youtube) {
         return (

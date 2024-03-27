@@ -6,19 +6,15 @@ export default () => [
         className="image-small"
         aspectRatio="4:3"
     >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.4679577856646!2d127.35955231526124!3d36.373664099292505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654bca0cbd98a1%3A0xf05e5d74520f5a0b!2sSketchLab!5e0!3m2!1sko!2skr!4v1526548732162"/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3179.2670784266033!2d127.0828722!3d37.1701234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b470031dac0d5%3A0xffd774c65ab077bf!2zKOyjvCntk6jsspjsnbTruIzsnbQ!5e0!3m2!1sko!2skr!4v1711508628564!5m2!1sko!2skr"/>
     </AspectRatio>,
 
     <div className="image-small-content">
-        #410 Department of Industrial Design (N25), KAIST<br/>
-        291 Daehak-ro, Yuseong-gu, Daejeon, 34141<br/>
-        Republic of Korea<br/>
-        +82-42-350-4564<br/>
-        <p/>
-
-        34141 대전광역시 유성구 대학로 291<br/>
-        KAIST 산업디자인학과동(N25) 410호<br/>
-        042-350-4564 (내선번호 4564)<br/>
-        <p/>
+        동탄미래기술센터 :<br/>
+        18487 경기도 화성시 동탄산단 5길 10-16 (방교동) 2층<p/>
+        대전 KAIST 연구센터 :<br/>
+        34051 대전광역시 유성구 문지동 103-6 KAIST 문지 캠퍼스 연구동 202호<p/>
+        (본사 : 63309 제주특별자치도 제주시 516로 2870)<p/>
+        Tel : 070-4739-0001
     </div>
 ];

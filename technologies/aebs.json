@@ -9,7 +9,8 @@
             "• 높은 정확도, 낮은 오경보를 가지는 비상제동 알고리즘",
             "• AEBS 시뮬레이터/벤치 마크 시스템",
             "• AEBS 인증 및 시험기술"
-        ]
+        ],
+        { "video": "/videos/technologies/aebs.mp4" }
     ],
     "reference": []
 }

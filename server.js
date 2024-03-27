@@ -32,6 +32,7 @@ const app = express();
 
 // static routing
 app.use('/images', express.static('images'));
+app.use('/videos', express.static('videos'));
 app.use('/pdf', express.static('pdf'));
 
 // intro
@@ -138,14 +139,14 @@ app.get('/products', (req, res) => {
 //     ]));
 // });
 
-// // contact
-// app.get('/contact', (req, res) => {
-//     res.send(render([
-//         <Header selected="contact"/>,
-//         <Contact/>,
-//         <Footer/>
-//     ]));
-// });
+// contact
+app.get('/contact', (req, res) => {
+    res.send(render([
+        <Header selected="/contact"/>,
+        <Contact/>,
+        <Footer/>
+    ]));
+});
 
 // all content pages
 app.get('/:a/:b', (req, res) => {

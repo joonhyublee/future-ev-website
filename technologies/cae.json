@@ -1,5 +1,5 @@
 {
-    "image": "/images/technologies/cae.jpg",
+    "image": "/images/technologies/cae_1.jpg",
     "supertitle": ["CAE"],
     "title": "전산해석(CAE) 설계 기술",
     "subtitle": [],
@@ -11,7 +11,8 @@
             "• Thermodynamics",
             "• Dynamics",
             "• CFD (Computational Fluid Dynamics)"
-        ]
+        ],
+        { "image": "/images/technologies/cae_2.gif" }
     ],
     "reference": []
 }
