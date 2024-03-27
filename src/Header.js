@@ -17,6 +17,7 @@ const style = {
     },
 
     logoImg: {
+        width: "inherit",
         height: "100%",
         border: "none"
     },
